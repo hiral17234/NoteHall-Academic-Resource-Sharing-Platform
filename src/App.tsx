@@ -100,6 +100,7 @@ function AuthenticatedApp() {
               <Route path="/gemini" element={<ProtectedRoute><Gemini /></ProtectedRoute>} />
               <Route path="/score" element={<ProtectedRoute><ScorePage /></ProtectedRoute>} />
               <Route path="/helped" element={<ProtectedRoute><HelpedPage /></ProtectedRoute>} />
+              <Route path="/developer" element={<ProtectedRoute><Developer /></ProtectedRoute>} />
               <Route 
                 path="/campusvoice" 
                 element={<Placeholder title="CampusVoice" description="Share your campus experiences and feedback. Coming soon!" externalUrl="https://campusvoice-git-main-hiral-goyals-projects.vercel.app/" />} 
