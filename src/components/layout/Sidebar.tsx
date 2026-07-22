@@ -11,7 +11,8 @@ import {
   ChevronRight,
   Award,
   Flame,
-  ExternalLink
+  ExternalLink,
+  Code2
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -37,6 +38,7 @@ const mainNavItems = [
   { title: "Help Desk", path: "/helpdesk", icon: HelpCircle },
   { title: "Gemini", path: "/gemini", icon: Bot },
   { title: "Profile", path: "/profile", icon: User },
+  { title: "Developer", path: "/developer", icon: Code2 },
   { title: "Settings", path: "/settings", icon: Settings },
 ];
 
