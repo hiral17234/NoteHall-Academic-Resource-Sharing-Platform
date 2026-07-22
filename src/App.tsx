@@ -23,6 +23,7 @@ import Welcome from "./pages/Welcome";
 import Notifications from "./pages/Notifications";
 import ScorePage from "./pages/ScorePage";
 import HelpedPage from "./pages/HelpedPage";
+import Developer from "./pages/Developer";
 import { OnboardingDialog } from "@/components/onboarding/OnboardingDialog";
 
 const queryClient = new QueryClient();
